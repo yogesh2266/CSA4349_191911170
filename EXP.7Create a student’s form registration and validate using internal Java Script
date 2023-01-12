@@ -1,0 +1,20 @@
+<form onsubmit="return showSuccessMessage()">
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name" required><br>
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" required><br>
+  <label for="age">Age:</label><br>
+  <input type="number" id="age" name="age" required><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<div id="success-message" style="display: none;">
+  Your form has been submitted successfully.
+</div>
+
+<script>
+function showSuccessMessage() {
+  document.getElementById("success-message").style.display = "block";
+  return false;
+}
+</script>
