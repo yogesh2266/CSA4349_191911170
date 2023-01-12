@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>background-repeat property</title>
+	<style>
+		body {
+			background-image: url(
+"avengers.jpeg");
+			background-repeat: repeat;
+			background-size: 400px 300px;
+			text-align: center;
+		}
+	</style>
+</head>
+
+<body>
+	<h1 style="color:red; font-size:500;">AVENGERS</h1>
+	<h2 style=color:red;>AVENGERS INFINITY WAR</h2>
+<button type="button" onclick="repeatVert()">Repeat background image only vertically</button>
+<button type="button" onclick="repeatHori()">Repeat background image only horizontally</button>
+<script>
+function repeatVert() {
+  document.body.style.backgroundRepeat = "repeat-y";
+}
+
+function repeatHori() {
+  document.body.style.backgroundRepeat = "repeat-x";
+}
+</script>
+
+</body>
+
+</html>
