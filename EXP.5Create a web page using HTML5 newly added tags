@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>My Title</title>
+    </head>
+    <body>
+
+  <header>
+    <a href="/" title="Go to home page">
+      <img src="saveetha.jpeg"  style="height:100px; width:150px;">
+    </a>
+    <nav>
+      <ul>
+        <li><a href="#"> saveetha portal</a></li>
+        <li><a href="#">faulty portal</a></li>
+        <li><a href="#">students portal</a></li>
+        <li><a href="#">dean</a></li>
+      </ul>
+    </nav>
+    <form role="search" aria-label="site">
+      <label>
+        <span>Search</span>
+        <input type="search"/>
+      </label>
+      <button type="submit">Submit</button>
+    </form>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">my course</a></li>
+      <li><a href="#">financial</a></li>
+      <li><a href="#">od</a></li>
+      <li><a href="#">attendace</a></li>
+      <li><a href="#">profile </a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <article>
+      <h1>BIO</h1>
+      <p>The <header>Creating buzz photography.</p>
+
+      <h2>ABOUT</h2>
+      <p>EDITING<article>.</p>Photographers (as any other creatives) genuinely care about their work. The things they create talk about who they are and what they stand for. When asked to write content about their photographs and share processes, they become vulnerable. Let’s learn how you can build on that and turn it into an advantage.
+      <p>A given document can have multiple articles in it; for example, on a blog that shows the text of each article one after another as the reader scrolls, each post would be contained in an <article> element, possibly with one or more <section>s within.</p>
+    </article>
+  </main>
+
+  <aside>
+    <section>
+      <h2>Share</h2>
+      <ul>
+        <li><a href="https://www.facebook.com/">Facebook</a>
+        <li><a href="https://twitter.com/login?lang=en">Twitter</a>
+        <li><a href="https://accounts.google.com/v3/signin/identifier?dsh=S-1073170170%3A1673323773210152&authuser=0&continue=https%3A%2F%2Fmyaccount.google.com%2F%3Futm_source%3Dsign_in_no_continue%26pli%3D1&ec=GAlAwAE&hl=en_GB&service=accountsettings&flowName=GlifWebSignIn&flowEntry=AddSession">Email</a>
+      </ul>
+    </section>
+    <section>
+      <h2>VISIT US ON MY SOCIAL ACCOUNTS</h2>
+      <ul>
+        <li>
+          <article>
+            <h3><a href="https://arms.sse.saveetha.com/">saveetha portal</a>
+            <p></p>
+          </article>
+        </li>
+        <li>
+          <article>
+            <h3><a href="https://www.facebook.com/SrinathCofficial?mibextid=ZbWKwL">Facebook</a></h3>
+            <p>Article description</p>
+          </article>
+        </li>
+      </ul>
+    </section>
+  </aside>
+
+  <footer>
+    <ul>
+      <li><a href="#">Footer link</a></li>
+      <li><a href="#">Footer link</a></li>
+      <li><a href="#">Footer link</a></li>
+      <li><a href="#">Footer link</a></li>
+      <li><a href="#">Footer link</a></li>
+    </ul>
+  </footer>
+
+</body>
+</html>
